@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/proListMain" android:background="@color/v2bg" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout android:id="@+id/tableLayout3" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableRow android:id="@+id/table1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="25dp" android:id="@+id/actimer" android:paddingTop="2dp" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="AC TIMER"/>
+                <TextView android:textSize="25dp" android:id="@+id/actimerprog" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+    <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+    <ScrollView android:id="@+id/widget33" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <TableRow android:id="@+id/tableRow2" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageMasterProg" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom1"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageMasterProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="Program" android:layout_alignTop="@+id/imageMasterProg"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageMasterProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow3" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageDiningProg" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Dining"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageDiningProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="Program1" android:layout_alignTop="@+id/imageDiningProg"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageDiningProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow4" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageLivingProg" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Living"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageLivingProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="Program1" android:layout_alignTop="@+id/imageLivingProg"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageLivingProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow5" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageTheatreProg" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Theatre"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageTheatreProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="Program1" android:layout_alignTop="@+id/imageTheatreProg"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageTheatreProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow6" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom1Prog" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom1"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageBedroom1ProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="Program1" android:layout_alignTop="@+id/imageBedroom1Prog"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom1ProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow7" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom2Prog" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom2"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageBedroom2ProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="NO" android:layout_alignTop="@+id/imageBedroom2Prog"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom2ProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow8" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom3Prog" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom3"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageBedroom3ProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="NO" android:layout_alignTop="@+id/imageBedroom3Prog"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom3ProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow9" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom4Prog" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom4"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageBedroom4ProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="NO" android:layout_alignTop="@+id/imageBedroom4Prog"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom4ProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow10" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom5Prog" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom5"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageBedroom5ProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="NO" android:layout_alignTop="@+id/imageBedroom5Prog"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom5ProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow11" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom6Prog" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom6"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageBedroom6ProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="NO" android:layout_alignTop="@+id/imageBedroom6Prog"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom6ProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow12" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom7Prog" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom7"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageBedroom7ProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="NO" android:layout_alignTop="@+id/imageBedroom7Prog"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom7ProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow13" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom8Prog" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom8"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageBedroom8ProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="NO" android:layout_alignTop="@+id/imageBedroom8Prog"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom8ProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow14" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom9Prog" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom9"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageBedroom9ProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="NO" android:layout_alignTop="@+id/imageBedroom9Prog"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom9ProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow15" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom10Prog" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom10"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageBedroom10ProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="NO" android:layout_alignTop="@+id/imageBedroom10Prog"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom10ProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow16" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom11Prog" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom11"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageBedroom11ProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="NO" android:layout_alignTop="@+id/imageBedroom11Prog"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom11ProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow17" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom12Prog" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="Bedroom12"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/imageBedroom12ProgNo" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="NO" android:layout_alignTop="@+id/imageBedroom12Prog"/>
+                    <TextView android:textSize="25dp" android:id="@+id/imageBedroom12ProgNot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TableRow android:id="@+id/tableRow1" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/acbtn" android:paddingTop="2dp" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="A/C"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/acStatus" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:text="Program" android:layout_alignTop="@+id/acbtn"/>
+                    <TextView android:textSize="25dp" android:id="@+id/acStatust" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow android:id="@+id/ac2Program" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25dp" android:id="@+id/ac2btn" android:paddingTop="2dp" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="A/C 2"/>
+                    <Button android:textSize="20dp" android:textColor="@color/blackText" android:gravity="left" android:id="@+id/ac2Status" android:background="#00000000" android:paddingTop="5dp" android:clickable="false" android:layout_width="120dp" android:layout_height="40dp" android:layout_marginLeft="160dp" android:layout_alignTop="@+id/ac2btn"/>
+                    <TextView android:textSize="25dp" android:id="@+id/ac2Statust" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:layout_marginTop="5dp" android:text="&gt;&gt;&gt;"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow>
+                <View android:layout_height="50dp"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

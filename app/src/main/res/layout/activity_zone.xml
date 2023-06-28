@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/zoneMain" android:background="@color/v2bg" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="10">
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableRow android:gravity="center_horizontal" android:background="#5685b9" android:layout_width="match_parent">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3">
+                <ImageView android:id="@+id/toplogo" android:padding="5dp" android:layout_width="200dp" android:layout_height="65dp" android:src="@drawable/airtouchlogoplus"/>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="10dp" android:textColor="@color/white" android:id="@+id/internetIcon" android:paddingRight="5dp" android:paddingBottom="5dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="INTERNET" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:background="#ffffff">
+            <TextView android:textSize="20dp" android:gravity="center" android:id="@+id/systemStatus" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <ListView android:orientation="vertical" android:id="@+id/listview" android:paddingBottom="40dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

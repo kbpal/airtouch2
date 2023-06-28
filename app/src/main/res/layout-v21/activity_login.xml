@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/v2bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/errorlayout" android:background="@color/v2bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="30dp" android:gravity="center" android:id="@+id/failedConnectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:text="No Connection"/>
+        <TextView android:gravity="center" android:id="@+id/failedConnectionMsg" android:padding="50dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="No connection found...Please turn on WIFI or mobile data"/>
+        <Button android:id="@+id/retry" android:background="@drawable/button_general_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Retry"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:id="@+id/initLoginDlg" android:background="@color/progTime" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/v2bg" android:padding="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp">
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="No Local Network Found"/>
+            <Button android:layout_gravity="center" android:id="@+id/dialogButtonRetry" android:background="@drawable/button_general_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Connect via Home WIFI"/>
+            <View android:background="@color/defaultText" android:layout_width="wrap_content" android:layout_height="3dp" android:layout_marginTop="5dp" android:layout_marginBottom="8dp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/buttonHelp" android:layout_width="0dp" android:layout_height="40dp" android:src="@drawable/ic_action_help" android:layout_weight="1"/>
+                <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/spinnerTag" android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Saved Systems" android:layout_weight="6"/>
+                <ImageView android:id="@+id/buttonAddNewSystem" android:layout_width="0dp" android:layout_height="40dp" android:src="@drawable/ic_action_add" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/dropdownBox" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="1"/>
+                    <Spinner android:id="@+id/airtouchPicker" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="9.47" android:hapticFeedbackEnabled="false" android:touchscreenBlocksFocus="false"/>
+                    <ImageView android:layout_gravity="center_vertical" android:id="@+id/buttonDeleteSystem" android:layout_width="0dp" android:layout_height="40dp" android:src="@drawable/ic_action_trash" android:layout_weight="1"/>
+                </LinearLayout>
+                <EditText android:id="@+id/editTextAddNewSystem" android:visibility="gone" android:layout_width="200dp" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="8" android:inputType="number"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="200dp" android:layout_height="wrap_content">
+                <TextView android:layout_gravity="center_horizontal" android:paddingTop="8dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password"/>
+                <EditText android:id="@+id/editTextUserPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:singleLine="true" android:maxLength="8" android:inputType="textPassword"/>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <CheckBox android:id="@+id/remPasswordCheck" android:layout_width="30dp" android:layout_height="30dp" android:checked="true"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="remember password"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:layout_gravity="center" android:id="@+id/dialogButtonInternet" android:background="@drawable/button_general_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="15dp" android:text="Connect via Internet"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@+id/inputIPDlg" android:background="@color/dialogBg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Please input AirTouch device IP:"/>
+                <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <EditText android:textSize="16sp" android:textColor="@color/black" android:gravity="center" android:id="@+id/IDEditDevIP1" android:layout_width="40dp" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="3" android:digits="01234556789" android:inputType="number" android:imeOptions="actionNext"/>
+                    <TextView android:textSize="16sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="."/>
+                    <EditText android:textSize="16sp" android:textColor="@color/black" android:gravity="center" android:id="@+id/IDEditDevIP2" android:layout_width="40dp" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="3" android:digits="01234556789" android:inputType="number" android:imeOptions="actionNext"/>
+                    <TextView android:textSize="16sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="."/>
+                    <EditText android:textSize="16sp" android:textColor="@color/black" android:gravity="center" android:id="@+id/IDEditDevIP3" android:layout_width="40dp" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="3" android:digits="01234556789" android:inputType="number" android:imeOptions="actionNext"/>
+                    <TextView android:textSize="16sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="."/>
+                    <EditText android:textSize="16sp" android:textColor="@color/black" android:gravity="center" android:id="@+id/IDEditDevIP4" android:layout_width="40dp" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="3" android:digits="01234556789" android:inputType="number" android:imeOptions="actionDone"/>
+                </LinearLayout>
+                <Button android:layout_gravity="center" android:id="@+id/dialogButtonInternetConn" android:background="@drawable/button_general_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="15dp" android:text="Connect"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/initWaitingDlg" android:background="@color/progTime" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/v2bg" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="300dp" android:layout_height="wrap_content">
+            <ProgressBar android:id="@+id/circleProgressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:interpolator="@android:anim/linear_interpolator" mce_style="?android:attr/progressBarStyleLarge" style="?android:attr/progressBarStyleLarge"/>
+            <TextView android:textSize="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Please Wait..."/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

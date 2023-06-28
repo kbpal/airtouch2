@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/groupView" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="3dp">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="43dp" android:layout_weight="2.7">
+            <ImageView android:id="@+id/groupName" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/btnbase_name"/>
+            <TextView android:textColor="#40749c" android:gravity="center" android:id="@+id/groupNameText" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Master"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/statusPage" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2">
+            <TextView android:textColor="@color/blackText" android:id="@+id/program" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PROG 1"/>
+            <TextView android:id="@+id/spillOrTurbo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SPILL"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:layout_width="0dp" android:layout_height="@dimen/groupRowHeight" android:layout_weight="1">
+            <ImageView android:id="@+id/fanDown" android:background="@drawable/btnbase_round" android:padding="9dp" android:layout_width="@dimen/groupRowHeight" android:layout_height="@dimen/groupRowHeight" android:src="@drawable/l_arrow"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/groupRowHeight" android:layout_weight="1.1">
+            <TextView android:textSize="18sp" android:id="@+id/fanValueDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0"/>
+            <TextView android:textSize="18sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="%"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="@dimen/groupRowHeight" android:layout_weight="1">
+            <ImageView android:id="@+id/fanUp" android:background="@drawable/btnbase_round" android:padding="9dp" android:layout_width="@dimen/groupRowHeight" android:layout_height="@dimen/groupRowHeight" android:src="@drawable/r_arrow"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#ffffff" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+</LinearLayout>

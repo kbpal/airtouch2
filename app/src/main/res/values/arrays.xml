@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="progarray">
+        <item>NO</item>
+        <item>Program1</item>
+        <item>Program2</item>
+        <item>Program3</item>
+        <item>Program4</item>
+    </array>
+</resources>

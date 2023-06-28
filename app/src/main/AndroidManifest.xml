@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="27" android:versionName="3.8" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="au.com.polyaire.airtouch2" platformBuildVersionCode="27" platformBuildVersionName="3.8">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+        <activity android:theme="@style/v2" android:label="@string/app_name" android:name="au.com.polyaire.airtouch2.InitActivity" android:launchMode="singleTop" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/v2" android:name="au.com.polyaire.airtouch2.LoginActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v2" android:name="au.com.polyaire.airtouch2.WifiMainActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v2" android:name="au.com.polyaire.airtouch2.ZoneActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v2" android:name="au.com.polyaire.airtouch2.ProgramActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@android:style/Theme.Black" android:name="au.com.polyaire.airtouch2.SysParametersActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v2" android:name="au.com.polyaire.airtouch2.ServiceActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v2" android:name="au.com.polyaire.airtouch2.SystemActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@android:style/Theme.Black" android:name="au.com.polyaire.airtouch2.HelpActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v2" android:name="au.com.polyaire.airtouch2.ProgMenu" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v2" android:name="au.com.polyaire.airtouch2.ProgramInfoMF" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v2" android:name="au.com.polyaire.airtouch2.ProgramInfoSat" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v2" android:name="au.com.polyaire.airtouch2.ProgramInfoSun" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v2" android:name="au.com.polyaire.airtouch2.NamingActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/v2" android:label="AC Timer" android:name="au.com.polyaire.airtouch2.ACTimerActivity" android:screenOrientation="portrait"/>
+        <service android:name="au.com.polyaire.airtouch2.service.WifiCommService"/>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false"/>
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="au.com.polyaire.airtouch2.firebaseinitprovider" android:initOrder="100"/>
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:name="com.crashlytics.android.CrashlyticsInitProvider" android:exported="false" android:authorities="au.com.polyaire.airtouch2.crashlyticsinitprovider" android:initOrder="90"/>
+    </application>
+</manifest>

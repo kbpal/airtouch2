@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/serviceMain" android:background="@color/v2bg" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/widget33" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <TableRow android:id="@+id/tableRow1" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="20dp" android:id="@+id/lzone1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:text="Installer:"/>
+                    <TextView android:textSize="20dp" android:id="@+id/installer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150dp" android:text="LEE" android:layout_alignTop="@+id/lzone1"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="20dp" android:id="@+id/lzone2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:text="Tel Number:"/>
+                    <TextView android:id="@+id/tel" android:background="@drawable/tel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150dp" android:layout_marginTop="5dp" android:layout_alignTop="@+id/lzone2"/>
+                    <TextView android:textSize="20dp" android:autoLink="phone" android:id="@+id/telnumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="165dp" android:text="12345678912" android:layout_alignTop="@+id/lzone2"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="20dp" android:id="@+id/lzone3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:text="Reminder:"/>
+                    <TextView android:textSize="20dp" android:id="@+id/reminder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150dp" android:text="5Days" android:layout_alignTop="@+id/lzone3"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="20dp" android:id="@+id/lzone4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:text="Half Year:"/>
+                    <TextView android:textSize="20dp" android:id="@+id/halfyear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150dp" android:text="Disable" android:layout_alignTop="@+id/lzone4"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow5" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="20dp" android:id="@+id/lzone5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:text="One Year:"/>
+                    <TextView android:textSize="20dp" android:id="@+id/oneyear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150dp" android:text="Disable" android:layout_alignTop="@+id/lzone5"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow6" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="20dp" android:id="@+id/lzone6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:text="Two Year"/>
+                    <TextView android:textSize="20dp" android:id="@+id/twoyear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150dp" android:text="Disable" android:layout_alignTop="@+id/lzone6"/>
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

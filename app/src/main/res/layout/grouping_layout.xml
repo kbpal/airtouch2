@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/backgroundcolor" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="10">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="13"/>
+    <ScrollView android:id="@+id/widget33" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <TableRow android:id="@+id/tableRow0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Group-1"/>
+                        <TextView android:textSize="17dp" android:id="@+id/group1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Z1-Z2" android:layout_alignTop="@+id/lgroup1"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Group-2"/>
+                        <TextView android:textSize="17dp" android:id="@+id/group2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="95dp" android:text="Z2" android:layout_alignTop="@+id/lgroup2"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Group-3"/>
+                        <TextView android:textSize="17dp" android:id="@+id/group3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Z3" android:layout_alignTop="@+id/lgroup3"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Group-4"/>
+                        <TextView android:textSize="17dp" android:id="@+id/group4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="95dp" android:text="Z4" android:layout_alignTop="@+id/lgroup4"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Group-5"/>
+                        <TextView android:textSize="17dp" android:id="@+id/group5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Z5" android:layout_alignTop="@+id/lgroup5"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Group-6"/>
+                        <TextView android:textSize="17dp" android:id="@+id/group6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="95dp" android:text="Z6" android:layout_alignTop="@+id/lgroup6"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Group-7"/>
+                        <TextView android:textSize="17dp" android:id="@+id/group7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Z7" android:layout_alignTop="@+id/lgroup7"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Group-8"/>
+                        <TextView android:textSize="17dp" android:id="@+id/group8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="95dp" android:text="Z9-Z10" android:layout_alignTop="@+id/lgroup8"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Group-9"/>
+                        <TextView android:textSize="17dp" android:id="@+id/group9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="Z9-ZA" android:layout_alignTop="@+id/lgroup9"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r10" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Group-A"/>
+                        <TextView android:textSize="17dp" android:id="@+id/groupa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="95dp" android:text="ZA" android:layout_alignTop="@+id/lgroup10"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r11" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Group-B"/>
+                        <TextView android:textSize="17dp" android:id="@+id/groupb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="ZB" android:layout_alignTop="@+id/lgroup11"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r12" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Group-C"/>
+                        <TextView android:textSize="17dp" android:id="@+id/groupc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="95dp" android:text="ZC" android:layout_alignTop="@+id/lgroup12"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r13" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Group-D"/>
+                        <TextView android:textSize="17dp" android:id="@+id/groupd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="ZD" android:layout_alignTop="@+id/lgroup13"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r14" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Group-E"/>
+                        <TextView android:textSize="17dp" android:id="@+id/groupe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="95dp" android:text="ZE" android:layout_alignTop="@+id/lgroup14"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r15" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Group-F"/>
+                        <TextView android:textSize="17dp" android:id="@+id/groupf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="85dp" android:text="ZF" android:layout_alignTop="@+id/lgroup15"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:id="@+id/r16" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="17dp" android:id="@+id/lgroup16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Group-G"/>
+                        <TextView android:textSize="17dp" android:id="@+id/groupg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="95dp" android:text="ZG" android:layout_alignTop="@+id/lgroup16"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="13"/>
+</LinearLayout>

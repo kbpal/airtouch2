@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/namingMain" android:background="@color/v2bg" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext1" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group1"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group1" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group1"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner1" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext2" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group2"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group2" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group2"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner2" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext3" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group3"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group3" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group3"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner3" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext4" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group4"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group4" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group4"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner4" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext5" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group5"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group5" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group5"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner5" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext6" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group6"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group6" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group6"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner6" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext7" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group7"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group7" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group7"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner7" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext8" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group8"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group8" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group8"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner8" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext9" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group9"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group9" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group9"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner9" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow10" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext10" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group10"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group10" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group10"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner10" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow11" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext11" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group11"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group11" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group11"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner11" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow12" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext12" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group12"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group12" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group12"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner12" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow13" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext13" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group13"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group13" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group13"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner13" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow14" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext14" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group14"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group14" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group14"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner14" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow15" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext15" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group15"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group15" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group15"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner15" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow android:id="@+id/tableRow16" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:gravity="center_vertical" android:id="@+id/grouptext16" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group16"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="15sp" android:gravity="center" android:layout_gravity="left" android:id="@+id/group16" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/group16"/>
+            <au.com.polyaire.airtouch2.NDSpinner android:gravity="center" android:layout_gravity="center" android:id="@+id/spinner16" android:layout_width="45dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="5dp"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent"/>
+            <Button android:textSize="15sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/button16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:text="@string/rename"/>
+        </TableRow>
+        <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="1dp"/>
+        <TableRow>
+            <View android:layout_height="50dp"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

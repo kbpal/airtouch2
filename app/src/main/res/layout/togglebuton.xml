@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@+id/layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@+id/background_oval_off" android:background="@drawable/status_button_off" android:visibility="gone" android:layout_width="@dimen/settings_toggle_width" android:layout_height="@dimen/settings_toggle_height"/>
+        <View android:id="@+id/background_oval_on" android:background="@drawable/status_button_on" android:visibility="gone" android:layout_width="@dimen/settings_toggle_width" android:layout_height="@dimen/settings_toggle_height"/>
+        <View android:id="@+id/background_oval_turbo" android:background="@drawable/status_button_turbo" android:visibility="gone" android:layout_width="@dimen/settings_toggle_width" android:layout_height="@dimen/settings_toggle_height"/>
+        <View android:layout_gravity="center_vertical" android:id="@+id/toggleCircle" android:background="@drawable/status_button_circle" android:layout_width="@dimen/settings_toggle_circle_diameter" android:layout_height="@dimen/settings_toggle_circle_diameter"/>
+    </FrameLayout>
+    <TextView android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+</merge>

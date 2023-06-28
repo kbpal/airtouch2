@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/helpMain" android:background="@color/v2bg" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="10">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="15"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textSize="18dp" android:textColor="@color/blackText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="If you need further help, please call:"/>
+        <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="18dp" android:textColor="@color/blackText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="New South Wales \10and Canberra:"/>
+                <TextView android:textSize="18dp" android:textColor="@color/blackText" android:autoLink="phone" android:background="@drawable/tel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="    02 8811 1333" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="18dp" android:textColor="@color/blackText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Victoria:"/>
+                <TextView android:textSize="18dp" android:textColor="@color/blackText" android:autoLink="phone" android:background="@drawable/tel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="    03 9465 8022" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="18dp" android:textColor="@color/blackText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Queensland: "/>
+                <TextView android:textSize="18dp" android:textColor="@color/blackText" android:autoLink="phone" android:background="@drawable/tel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="    07 3866 8700" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="18dp" android:textColor="@color/blackText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Western Australia:  "/>
+                <TextView android:textSize="18dp" android:textColor="@color/blackText" android:autoLink="phone" android:background="@drawable/tel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="    08 6241 0555" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="18dp" android:textColor="@color/blackText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="South Australia\10(Head Office)\10and others:"/>
+                <TextView android:textSize="18dp" android:textColor="@color/blackText" android:autoLink="phone" android:background="@drawable/tel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="    08 8349 8466" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+        </LinearLayout>
+        <TextView android:textSize="18dp" android:textColor="@color/blackText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Or visit our website:"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18dp" android:textColor="@color/blackText" android:autoLink="web" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="www.polyaire.com.au"/>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2px"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="15"/>
+</LinearLayout>

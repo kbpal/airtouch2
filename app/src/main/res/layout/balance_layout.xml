@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/backgroundcolor" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="10">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="13"/>
+    <ScrollView android:id="@+id/widget33" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <TableRow android:id="@+id/tableRow1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzone1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Zone 1"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:text="90%" android:layout_alignTop="@+id/lzone1"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzone2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Zone 2"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="90%" android:layout_alignTop="@+id/lzone2" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzone3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Zone 3"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:text="100%" android:layout_alignTop="@+id/lzone3"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzone4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Zone 4"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100%" android:layout_alignTop="@+id/lzone4" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzone5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Zone 5"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:text="100%" android:layout_alignTop="@+id/lzone5"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzone6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Zone 6"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100%" android:layout_alignTop="@+id/lzone6" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow5" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzone7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Zone 7"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:text="100%" android:layout_alignTop="@+id/lzone7"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzone8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Zone 8"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:text="100%" android:layout_alignTop="@+id/lzone8" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow6" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzone9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Zone 9"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:text="100%" android:layout_alignTop="@+id/lzone9"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzonea" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Zone A"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:text="100%" android:layout_alignTop="@+id/lzonea" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow7" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzoneb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Zone B"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:text="100%" android:layout_alignTop="@+id/lzoneb"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzonec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Zone C"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100%" android:layout_alignTop="@+id/lzonec" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow8" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzoned" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Zone D"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:text="100%" android:layout_alignTop="@+id/lzoned"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzonee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Zone E"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100%" android:layout_alignTop="@+id/lzonee" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow9" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzonef" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Zone F"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:text="100%" android:layout_alignTop="@+id/lzonef"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="2dp" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+                        <TextView android:textSize="20dp" android:id="@+id/lzoneg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:text="Zone G"/>
+                        <TextView android:textSize="20dp" android:id="@+id/zone16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100%" android:layout_alignTop="@+id/lzoneg" android:layout_alignParentRight="true"/>
+                        <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="13"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/errorlayout" android:background="@color/v2bg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="30dp" android:gravity="center" android:id="@+id/failedConnectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:text="Connection Lost"/>
+        <TextView android:gravity="center" android:id="@+id/failedConnectionMsg" android:padding="50dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Please restart the application"/>
+        <Button android:id="@+id/restartApp" android:background="@drawable/button_general_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Restart"/>
+    </LinearLayout>
+</LinearLayout>

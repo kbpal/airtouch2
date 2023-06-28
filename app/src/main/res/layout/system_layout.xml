@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/systemMain" android:background="@color/v2bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_margin="5dp">
+        <TextView android:textSize="17dp" android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Owner: " android:layout_weight="3"/>
+        <TextView android:textSize="17dp" android:id="@+id/ownerNameDisplay" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="4"/>
+        <EditText android:id="@+id/ownerNameEdit" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="16" android:layout_weight="5"/>
+        <ImageView android:id="@+id/buttonEditOwner" android:layout_width="0dp" android:layout_height="25dp" android:src="@drawable/ic_mode_edit_black_24dp" android:adjustViewBounds="true" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="50dp">
+        <Button android:id="@+id/buttonEditPassword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Change Internet Password"/>
+    </LinearLayout>
+    <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="2dp"/>
+    <LinearLayout android:orientation="horizontal" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="IP Addr: " android:layout_weight="2"/>
+        <TextView android:textSize="20dp" android:id="@+id/ipaddr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="MAC Addr: " android:layout_weight="2"/>
+        <TextView android:textSize="20dp" android:id="@+id/macaddr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Device ID: " android:layout_weight="2"/>
+        <TextView android:textSize="20dp" android:id="@+id/deviceID" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+    </LinearLayout>
+    <View android:background="@color/listDividerColor" android:layout_width="wrap_content" android:layout_height="2dp"/>
+    <LinearLayout android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Display room temperature" android:layout_weight="5"/>
+        <CheckBox android:id="@+id/checkBoxDisplayRoomTemp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:onClick="onCheckboxClicked"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/FanSpeedLine" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Toshiba Three Fan Speed" android:layout_weight="5"/>
+        <CheckBox android:id="@+id/checkBoxTOSHIBA3FanSpeed" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:onClick="onCheckboxTOSHIBA3FanSpeedClicked"/>
+    </LinearLayout>
+</LinearLayout>

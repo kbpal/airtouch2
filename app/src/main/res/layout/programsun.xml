@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/v2bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_weight="1">
+        <TextView android:textSize="30sp" android:id="@+id/programno" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="Program1"/>
+        <TextView android:textSize="25sp" android:id="@+id/montofribtn" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Sunday"/>
+        <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <TextView android:textSize="20sp" android:id="@+id/montofri" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="2dp" android:text="ON"/>
+                <TextView android:textSize="20sp" android:id="@+id/ac1ontime" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="2dp" android:checked="true" android:text="Time1"/>
+                <TextView android:textSize="20sp" android:id="@+id/suntime1onstatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="2dp" android:checked="true" android:text="06:30AM"/>
+                <Button android:id="@+id/Button1" android:background="@drawable/btn_radio_off" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginLeft="20dp"/>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+            <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <TextView android:textSize="20sp" android:id="@+id/sat1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="2dp" android:text="OFF"/>
+                <TextView android:textSize="20sp" android:id="@+id/ac1offtime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="2dp" android:text="Time1"/>
+                <TextView android:textSize="20sp" android:id="@+id/suntime1offstatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="2dp" android:checked="true" android:text="08:00AM"/>
+                <Button android:id="@+id/Button2" android:background="@drawable/btn_radio_off" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginLeft="20dp"/>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+            <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <TextView android:textSize="20sp" android:id="@+id/sun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="2dp" android:text="ON"/>
+                <TextView android:textSize="20sp" android:id="@+id/sunstarttime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="2dp" android:text="Time2"/>
+                <TextView android:textSize="20sp" android:id="@+id/suntime2onstatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="2dp" android:text="05:30PM"/>
+                <Button android:id="@+id/Button3" android:background="@drawable/btn_radio_off" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginLeft="20dp"/>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+            <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <TextView android:textSize="20sp" android:id="@+id/sun1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="2dp" android:text="OFF"/>
+                <TextView android:textSize="20sp" android:id="@+id/sunstarttime1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="2dp" android:text="Time2"/>
+                <TextView android:textSize="20sp" android:id="@+id/suntime2offstatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="2dp" android:text="10:00PM"/>
+                <Button android:id="@+id/Button4" android:background="@drawable/btn_radio_off" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginLeft="20dp"/>
+            </TableRow>
+            <View android:background="?android:attr/listDivider" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

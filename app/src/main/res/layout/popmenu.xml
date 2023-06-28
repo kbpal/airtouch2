@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3">
+    <RelativeLayout android:id="@+id/home" android:background="@drawable/menubg" android:layout_width="0dp" android:layout_height="@dimen/menuButton" android:layout_weight="1">
+        <ImageView android:layout_width="@dimen/menuPic" android:layout_height="@dimen/menuPic" android:layout_marginTop="2dp" android:src="@drawable/menuhome" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="10dp" android:textColor="@color/defaultText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UNIT" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/zone" android:background="@drawable/menubg" android:layout_width="0dp" android:layout_height="@dimen/menuButton" android:layout_weight="1">
+        <ImageView android:layout_width="@dimen/menuPic" android:layout_height="@dimen/menuPic" android:layout_marginTop="2dp" android:src="@drawable/menuzone" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="10dp" android:textColor="@color/defaultText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ZONE" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/program" android:background="@drawable/menubg" android:layout_width="0dp" android:layout_height="@dimen/menuButton" android:layout_weight="1">
+        <ImageView android:layout_width="@dimen/menuPic" android:layout_height="@dimen/menuPic" android:layout_marginTop="2dp" android:src="@drawable/menuprog" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="10dp" android:textColor="@color/defaultText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PROGRAM" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/obssysparameters" android:background="@drawable/menubg" android:layout_width="0dp" android:layout_height="@dimen/menuButton" android:layout_weight="1">
+        <ImageView android:layout_width="@dimen/menuPic" android:layout_height="@dimen/menuPic" android:layout_marginTop="2dp" android:src="@drawable/menusys" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="10dp" android:textColor="@color/defaultText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SYSTEM" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/help" android:background="@drawable/menubg" android:layout_width="0dp" android:layout_height="@dimen/menuButton" android:layout_weight="1">
+        <ImageView android:layout_width="@dimen/menuPic" android:layout_height="@dimen/menuPic" android:layout_marginTop="2dp" android:src="@drawable/menuhelp" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="10dp" android:textColor="@color/defaultText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HELP" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_1" android:checkableBehavior="single">
+        <item android:icon="@drawable/program" android:textSize="40dp" android:id="@+id/program1"/>
+        <item android:icon="@drawable/i" android:textSize="60dp" android:id="@+id/obssysparameters1"/>
+        <item android:icon="@drawable/help" android:id="@+id/help1" android:title="Help"/>
+    </group>
+</menu>

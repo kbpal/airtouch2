@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/acInfoMain" android:background="@color/v2bg" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/errorlayout" android:background="@color/v2bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="30dp" android:gravity="center" android:id="@+id/failedConnectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:text="No Connection"/>
+        <TextView android:gravity="center" android:id="@+id/failedConnectionMsg" android:padding="50dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="No connection found...Please turn on WIFI or mobile data"/>
+        <Button android:id="@+id/restartApp" android:background="@drawable/button_general_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Restart"/>
+    </LinearLayout>
+    <TableLayout android:id="@+id/toplayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableRow android:gravity="center_horizontal" android:background="#5685b9" android:layout_width="match_parent">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3">
+                <ImageView android:id="@+id/toplogo" android:padding="5dp" android:layout_width="200dp" android:layout_height="65dp" android:src="@drawable/airtouchlogoplus"/>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="10dp" android:textColor="@color/white" android:id="@+id/internetIcon" android:paddingRight="5dp" android:paddingBottom="5dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="INTERNET" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:id="@+id/row2SystemStatus" android:background="#ffffff">
+            <TextView android:textSize="20dp" android:textColor="#2b7c9f" android:gravity="center" android:id="@+id/topspill" android:padding="5dp" android:focusable="true" android:focusableInTouchMode="true" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow android:gravity="center" android:id="@+id/row3Power" android:visibility="invisible">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="4">
+                    <ImageView android:id="@+id/acstatus" android:layout_width="@dimen/powerButtonDimen" android:layout_height="@dimen/powerButtonDimen" android:layout_marginLeft="20dp" android:layout_marginTop="7dp" android:src="@drawable/acoff"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                    <LinearLayout android:orientation="vertical" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="90dp">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:layout_gravity="center" android:id="@+id/timerIcon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:layout_width="15dp" android:layout_height="15dp" android:src="@drawable/timerindicator"/>
+                                <TextView android:textSize="10dp" android:textColor="@color/blackText" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="TIMER"/>
+                            </LinearLayout>
+                            <TextView android:textSize="13dp" android:textColor="@color/blackText" android:gravity="right" android:layout_gravity="right" android:id="@+id/programIcon" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginLeft="0dp"/>
+                        </LinearLayout>
+                        <TextView android:textSize="20dp" android:layout_gravity="center_horizontal" android:id="@+id/ACName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="PLAYROOM"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:layout_gravity="center" android:id="@+id/nextGroup" android:background="@drawable/btnbase_round" android:padding="9dp" android:layout_width="@dimen/nextGroupButtonDimen" android:layout_height="@dimen/nextGroupButtonDimen" android:layout_marginTop="12dp" android:layout_marginRight="10dp" android:src="@drawable/r_arrow"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:id="@+id/row4Text" android:visibility="gone">
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MODE"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:id="@+id/row5Buttons" android:visibility="gone">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/modeButtonHeat" android:background="@drawable/btnbase_left" android:padding="@dimen/modeButtonEndPadding" android:layout_width="@dimen/modeButtonEndWidth" android:layout_height="@dimen/modeButtonDimen" android:src="@drawable/mheat"/>
+                <ImageView android:id="@+id/modeButtonCool" android:background="@drawable/btnbase_mid" android:padding="@dimen/modeButtonPadding" android:layout_width="@dimen/modeButtonWidth" android:layout_height="@dimen/modeButtonDimen" android:src="@drawable/mcool"/>
+                <ImageView android:id="@+id/modeButtonFan" android:background="@drawable/btnbase_mid" android:padding="@dimen/modeButtonPadding" android:layout_width="@dimen/modeButtonWidth" android:layout_height="@dimen/modeButtonDimen" android:src="@drawable/mfan"/>
+                <ImageView android:id="@+id/modeButtonDry" android:background="@drawable/btnbase_mid" android:padding="@dimen/modeButtonPadding" android:layout_width="@dimen/modeButtonWidth" android:layout_height="@dimen/modeButtonDimen" android:src="@drawable/mdry"/>
+                <ImageView android:id="@+id/modeButtonAuto" android:background="@drawable/btnbase_right" android:padding="@dimen/modeButtonEndPadding" android:layout_width="@dimen/modeButtonEndWidth" android:layout_height="@dimen/modeButtonDimen" android:src="@drawable/auto"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:id="@+id/row6Text" android:visibility="gone">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:gravity="center" android:layout_width="@dimen/modeButtonEndWidth" android:layout_height="wrap_content" android:text="HEAT"/>
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:gravity="center" android:layout_width="@dimen/modeButtonWidth" android:layout_height="wrap_content" android:text="COOL"/>
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:gravity="center" android:layout_width="@dimen/modeButtonWidth" android:layout_height="wrap_content" android:text="FAN"/>
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:gravity="center" android:id="@+id/modeTextDry" android:layout_width="@dimen/modeButtonWidth" android:layout_height="wrap_content" android:text="DRY"/>
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:gravity="center" android:id="@+id/modeTextAuto" android:layout_width="@dimen/modeButtonEndWidth" android:layout_height="wrap_content" android:text="AUTO"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:id="@+id/row7Temp" android:visibility="invisible">
+            <RelativeLayout android:layout_weight="1">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_centerInParent="true">
+                    <RelativeLayout android:id="@+id/mainTempDisplay" android:background="@drawable/btnbase_temp" android:padding="15dp" android:layout_width="120dp" android:layout_height="120dp" android:layout_marginRight="7dp">
+                        <RelativeLayout android:paddingRight="22dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                            <TextView android:textSize="45dp" android:textStyle="bold" android:id="@+id/setTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0"/>
+                            <TextView android:textSize="8dp" android:textStyle="bold" android:id="@+id/setpointText" android:paddingLeft="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SET POINT" android:layout_alignBottom="@+id/setTemp"/>
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/tempControls" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/plusTemp" android:background="@drawable/btnbase_round" android:padding="7dp" android:layout_width="@dimen/setTempButtonDimen" android:layout_height="@dimen/setTempButtonDimen" android:src="@drawable/sign_plus"/>
+                        <ImageView android:id="@+id/minusTemp" android:background="@drawable/btnbase_round" android:padding="7dp" android:layout_width="@dimen/setTempButtonDimen" android:layout_height="@dimen/setTempButtonDimen" android:src="@drawable/sign_minus"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:id="@+id/row8Text" android:visibility="gone">
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FAN"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:id="@+id/row9Buttons" android:visibility="gone">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/fanButtonQuiet" android:background="@drawable/btnbase_left" android:padding="@dimen/modeButtonEndPadding" android:layout_width="@dimen/modeButtonEndWidth" android:layout_height="@dimen/modeButtonDimen" android:src="@drawable/fanquiet"/>
+                <ImageView android:id="@+id/fanButtonLow" android:background="@drawable/btnbase_mid" android:padding="@dimen/modeButtonPadding" android:layout_width="@dimen/modeButtonWidth" android:layout_height="@dimen/modeButtonDimen" android:src="@drawable/fanlow"/>
+                <ImageView android:id="@+id/fanButtonMed" android:background="@drawable/btnbase_mid" android:padding="@dimen/modeButtonPadding" android:layout_width="@dimen/modeButtonWidth" android:layout_height="@dimen/modeButtonDimen" android:src="@drawable/fanmid"/>
+                <ImageView android:id="@+id/fanButtonHigh" android:background="@drawable/btnbase_mid" android:padding="@dimen/modeButtonPadding" android:layout_width="@dimen/modeButtonWidth" android:layout_height="@dimen/modeButtonDimen" android:src="@drawable/fanhigh"/>
+                <ImageView android:id="@+id/fanButtonPowerful" android:background="@drawable/btnbase_mid" android:padding="@dimen/modeButtonPadding" android:layout_width="@dimen/modeButtonWidth" android:layout_height="@dimen/modeButtonDimen" android:src="@drawable/fanpowerful"/>
+                <ImageView android:id="@+id/fanButtonAuto" android:background="@drawable/btnbase_right" android:padding="@dimen/modeButtonEndPadding" android:layout_width="@dimen/modeButtonEndWidth" android:layout_height="@dimen/modeButtonDimen" android:src="@drawable/auto"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:id="@+id/row10Text" android:visibility="gone">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:gravity="center" android:id="@+id/fanTextQuiet" android:layout_width="@dimen/modeButtonEndWidth" android:layout_height="wrap_content" android:text="QUIET"/>
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:gravity="center" android:id="@+id/fanTextLow" android:layout_width="@dimen/modeButtonWidth" android:layout_height="wrap_content" android:text="LOW"/>
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:gravity="center" android:id="@+id/fanTextMed" android:layout_width="@dimen/modeButtonWidth" android:layout_height="wrap_content" android:text="MED"/>
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:gravity="center" android:id="@+id/fanTextHigh" android:layout_width="@dimen/modeButtonWidth" android:layout_height="wrap_content" android:text="HIGH"/>
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:gravity="center" android:id="@+id/fanTextPowerful" android:layout_width="@dimen/modeButtonEndWidth" android:layout_height="wrap_content" android:text="POWERFUL"/>
+                <TextView android:textSize="@dimen/modeButtonTextSize" android:textStyle="bold" android:gravity="center" android:id="@+id/fanTextAuto" android:layout_width="@dimen/modeButtonEndWidth" android:layout_height="wrap_content" android:text="AUTO"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
